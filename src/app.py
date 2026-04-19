@@ -54,7 +54,7 @@ print(transcription)
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCNQf_BQ0SW3WgTKChUsqHBurk1uVpRzNI")
+client = genai.Client(api_key="SUA_API_KEY_AQUI")
 
 response = client.models.generate_content(
     model="gemini-3-flash-preview",
